@@ -12,12 +12,12 @@
 		"react-redux": "^5.0.7",
 		"react-router-dom": "^4.2.2",
 		"redux": "^3.7.2",
+		"redux-logger": "^3.0.6",
 		"webpack": "^3.9.1"
 	},
-	"description":
-		"This README would normally document whatever steps are necessary to get the application up and running.",
+	"description": "This README would normally document whatever steps are necessary to get the application up and running.",
 	"version": "1.0.0",
-	"main": "./frontend/index.jsx",
+	"main": "./frontend/bench_bnb.jsx",
 	"directories": {
 		"lib": "lib",
 		"test": "test"
