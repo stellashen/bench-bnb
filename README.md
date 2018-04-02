@@ -1,24 +1,26 @@
-# README
+# BenchBnB
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+After git clone, please run the following commands:
+```
+$ cd bench-bnb
+$ bundle install
+$ npm install
+$ npm run webpack
+$ be rails db:reset
+$ rails s
+```
 
-Things you may want to cover:
+`$ npm run webpack` runs webpack --watch, and updates any javascript changes.
+`$ rails s` opens rails server.
+Note: Keep these two terminal tabs open for runnning webpack watch and rails server.
 
-* Ruby version
+Then open browser and go to:
+http://localhost:3000/
 
-* System dependencies
+jsx entry file:
+frontend/bench_bnb.jsx
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+html homepage:
+app/biews/static_pages/root.html.erb
+layout:
+app/views/layouts/application.html.erb
